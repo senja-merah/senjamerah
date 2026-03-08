@@ -3,224 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Senja Merah | Ruang Kontemplasi Jiwa</title>
     
-    <!-- Meta Tags -->
-    <meta name="description" content="Senja Merah adalah tempat pikiran beristirahat sejenak merenungkan filsafat, hikmah agama, psikologi jiwa, serta perjalanan manusia memahami dirinya dan makna kehidupan.">
-    <meta name="keywords" content="senja merah, kontemplasi, filsafat, agama, psikologi jiwa, makna hidup">
+    <!-- META TITLE & DESKRIPSI -->
+    <title>Senja Merah - Refleksi Filsafat, Spiritualitas & Pengembangan Diri</title>
+    <meta name="description" content="Senja Merah adalah blog reflektif yang membahas filsafat, agama, spiritualitas, psikologi, pengembangan diri, dan perenungan kehidupan. Temukan makna di balik senja.">
+    <meta name="keywords" content="filsafat, spiritualitas, psikologi, pengembangan diri, refleksi, agama, blog filsafat, senja merah, kehidupan, mindfulness">
     <meta name="author" content="Senja Merah">
     
-    <!-- Open Graph -->
-    <meta property="og:title" content="Senja Merah | Ruang Kontemplasi Jiwa">
-    <meta property="og:description" content="Tempat pikiran beristirahat sejenak merenungkan filsafat, hikmah agama, psikologi jiwa, dan makna kehidupan.">
-    <meta property="og:image" content="https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg">
-    <meta property="og:url" content="https://senja-merah.github.io/senjamerah/">
+    <!-- OPEN GRAPH / SOCIAL MEDIA -->
+    <meta property="og:title" content="Senja Merah - Refleksi Jiwa">
+    <meta property="og:description" content="Blog reflektif tentang filsafat, spiritualitas, dan pengembangan diri. Mari merenung bersama di ambang senja.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://username.github.io/senja-merah-blog">
+    <meta property="og:image" content="https://source.unsplash.com/1200x630/?sunset,philosophy">
     
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- FAVICON (placeholder) -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%238B0000'>🌅</text></svg>">
     
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- GOOGLE FONTS: Elegan & Intelektual -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- FONT AWESOME (untuk ikon) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- CSS EKSTERNAL -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="preloader-text">Senja Merah</div>
-    </div>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">Senja <span>Merah</span></a>
-            <div class="nav-links">
-                <a href="#home">Beranda</a>
-                <a href="#tentang">Tentang</a>
-                <a href="#filsafat">Filsafat</a>
-                <a href="#agama">Agama</a>
-                <a href="#psikologi">Psikologi</a>
-                <a href="#artikel">Renungan</a>
-                <a href="#kontak">Kontak</a>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#">Senja Merah</a>
             </div>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Senja <span>Merah</span></h1>
-            <p class="hero-subtitle">"Tempat pikiran beristirahat sejenak merenungkan filsafat, hikmah agama, psikologi jiwa, serta perjalanan manusia memahami dirinya dan makna kehidupan."</p>
-            <div class="hero-quote">
-                "Dan bahwasanya seorang manusia tiada memperoleh selain apa yang telah diusahakannya" — QS. An-Najm: 39
-            </div>
-            <div class="btn-group">
-                <a href="#tentang" class="btn">Mulai Merenung</a>
-                <a href="#artikel" class="btn btn-outline">Baca Renungan</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Tentang Section -->
-    <section id="tentang" class="container">
-        <div class="section-tag">Tentang Senja Merah</div>
-        <h2 class="section-title">Ruangan Jiwa untuk Berpikir</h2>
-        <div class="divider"></div>
-        <p class="section-subtitle">
-            Di sini, di antara warna jingga yang merambat perlahan, kami mengajak Anda berhenti sejenak. 
-            Merenung, bertanya, dan mencari makna di balik setiap detak kehidupan.
-        </p>
-    </section>
-
-    <!-- Categories Section -->
-    <section id="filsafat" class="container">
-        <div class="card-grid">
-            <!-- Filsafat Card -->
-            <div class="card">
-                <div class="card-image" style="background-image: url('https://images.pexels.com/photos/2923156/pexels-photo-2923156.jpeg?auto=compress&cs=tinysrgb&w=600')">
-                    <div class="card-overlay"></div>
-                    <span class="card-category">Filsafat</span>
-                </div>
-                <div class="card-content">
-                    <i class="fas fa-brain card-icon"></i>
-                    <h3>Filsafat Eksistensial</h3>
-                    <p>Menyelami pertanyaan-pertanyaan fundamental tentang eksistensi, kesadaran, realitas, dan makna keberadaan manusia di alam semesta.</p>
-                    <a href="#" class="card-link">Renungkan <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-
-            <!-- Agama Card -->
-            <div class="card">
-                <div class="card-image" style="background-image: url('https://images.pexels.com/photos/5471148/pexels-photo-5471148.jpeg?auto=compress&cs=tinysrgb&w=600')">
-                    <div class="card-overlay"></div>
-                    <span class="card-category">Hikmah Agama</span>
-                </div>
-                <div class="card-content">
-                    <i class="fas fa-mosque card-icon"></i>
-                    <h3>Hikmah Transendental</h3>
-                    <p>Menggali mutiara kebijaksanaan dari ajaran agama, menemukan cahaya petunjuk untuk menenangkan jiwa yang gelisah.</p>
-                    <a href="#" class="card-link">Renungkan <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-
-            <!-- Psikologi Card -->
-            <div class="card">
-                <div class="card-image" style="background-image: url('https://images.pexels.com/photos/3755761/pexels-photo-3755761.jpeg?auto=compress&cs=tinysrgb&w=600')">
-                    <div class="card-overlay"></div>
-                    <span class="card-category">Psikologi Jiwa</span>
-                </div>
-                <div class="card-content">
-                    <i class="fas fa-heart card-icon"></i>
-                    <h3>Psikologi Spiritual</h3>
-                    <p>Memahami lanskap jiwa manusia, mengenali diri, mengelola emosi, dan menemukan keseimbangan batin.</p>
-                    <a href="#" class="card-link">Renungkan <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Quote Section -->
-    <section class="quote-section">
-        <div class="quote-text">
-            "Hidup ini bukan tentang menemukan diri sendiri, tetapi tentang menciptakan diri sendiri melalui setiap renungan dan perjalanan jiwa."
-        </div>
-        <div class="quote-author">— Senja Merah</div>
-    </section>
-
-    <!-- Artikel Terbaru -->
-    <section id="artikel" class="container">
-        <div class="section-tag">Renungan Terbaru</div>
-        <h2 class="section-title">Merenungi Makna</h2>
-        <div class="divider"></div>
-        
-        <div class="artikel-grid">
-            <!-- Artikel 1 -->
-            <article class="artikel-item">
-                <div class="artikel-image" style="background-image: url('https://images.pexels.com/photos/2923156/pexels-photo-2923156.jpeg?auto=compress&cs=tinysrgb&w=600')"></div>
-                <div class="artikel-content">
-                    <div class="artikel-tanggal">20 Januari 2024</div>
-                    <h3 class="artikel-judul">Meraba Yang Tak Teraba: Eksistensi Diri di Tengah Hiruk Pikuk Dunia</h3>
-                    <p class="artikel-excerpt">Di tengah dunia yang terus berteriak, pernahkah kita benar-benar mendengar suara diri sendiri?</p>
-                    <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
-
-            <!-- Artikel 2 -->
-            <article class="artikel-item">
-                <div class="artikel-image" style="background-image: url('https://images.pexels.com/photos/5471148/pexels-photo-5471148.jpeg?auto=compress&cs=tinysrgb&w=600')"></div>
-                <div class="artikel-content">
-                    <div class="artikel-tanggal">15 Januari 2024</div>
-                    <h3 class="artikel-judul">Doa dan Air Mata: Dialog Jiwa dengan Sang Pencipta</h3>
-                    <p class="artikel-excerpt">Ketika kata-kata tak lagi mampu mengungkapkan, air mata menjadi bahasa jiwa yang paling jujur.</p>
-                    <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
-
-            <!-- Artikel 3 -->
-            <article class="artikel-item">
-                <div class="artikel-image" style="background-image: url('https://images.pexels.com/photos/3755761/pexels-photo-3755761.jpeg?auto=compress&cs=tinysrgb&w=600')"></div>
-                <div class="artikel-content">
-                    <div class="artikel-tanggal">10 Januari 2024</div>
-                    <h3 class="artikel-judul">Luka yang Bicara: Memahami Trauma dan Proses Penyembuhan Jiwa</h3>
-                    <p class="artikel-excerpt">Setiap luka memiliki cerita, dan setiap cerita layak untuk didengar dan dipahami.</p>
-                    <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer id="kontak">
-        <div class="footer-container">
-            <div class="footer-about">
-                <h3>Senja <span>Merah</span></h3>
-                <p>Tempat pikiran beristirahat sejenak, merenungkan makna kehidupan, filsafat, hikmah agama, dan psikologi jiwa.</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-            
-            <div class="footer-links">
-                <h4>Jelajahi</h4>
+            <nav class="nav-menu" id="nav-menu">
                 <ul>
-                    <li><a href="#tentang">Tentang Kami</a></li>
+                    <li><a href="#hero" class="active">Beranda</a></li>
                     <li><a href="#filsafat">Filsafat</a></li>
-                    <li><a href="#agama">Hikmah Agama</a></li>
-                    <li><a href="#psikologi">Psikologi Jiwa</a></li>
+                    <li><a href="#spiritualitas">Spiritualitas</a></li>
+                    <li><a href="#psikologi">Psikologi</a></li>
+                    <li><a href="#pengembangan-diri">Pengembangan Diri</a></li>
+                    <li><a href="#refleksi">Refleksi</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
                 </ul>
-            </div>
-            
-            <div class="footer-links">
-                <h4>Renungan</h4>
-                <ul>
-                    <li><a href="#">Artikel Terbaru</a></li>
-                    <li><a href="#">Kutipan Inspiratif</a></li>
-                    <li><a href="#">Video Renungan</a></li>
-                </ul>
-            </div>
-            
-            <div class="footer-links">
-                <h4>Kontak</h4>
-                <ul>
-                    <li><i class="fas fa-envelope"></i> senja@merah.com</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</li>
-                </ul>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
-        
-        <div class="copyright">
-            <p>&copy; 2024 Senja Merah. Setiap renungan adalah undangan untuk memahami diri lebih dalam.</p>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Senja Merah</h1>
+                <p class="hero-tagline">"Di ujung senja, kita belajar merenung. Antara langit dan jiwa, ada jawaban yang tak pernah terucap."</p>
+                <a href="#artikel-terbaru" class="btn btn-primary">Mulai Membaca</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT + SIDEBAR -->
+    <section class="main-content-section">
+        <div class="container main-grid">
+            
+            <!-- ARTIKEL TERBARU (KIRI) -->
+            <div class="articles-area" id="artikel-terbaru">
+                <h2 class="section-title">Artikel Terbaru</h2>
+                <div class="articles-grid">
+                    
+                    <!-- Kartu Artikel 1 -->
+                    <article class="card">
+                        <div class="card-img">
+                            <img src="https://source.unsplash.com/600x400/?sunset,philosophy" alt="Filsafat Senja">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Merenung di Ambang Senja: Filsafat Waktu</h3>
+                            <p class="card-excerpt">Waktu bukan hanya detik yang berlalu, melainkan cermin eksistensi. Filsuf dari masa ke masa merenung tentang senja sebagai metafora...</p>
+                            <a href="#" class="btn-card">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    
+                    <!-- Kartu Artikel 2 -->
+                    <article class="card">
+                        <div class="card-img">
+                            <img src="https://source.unsplash.com/600x400/?meditation,spiritual" alt="Spiritualitas">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">hening: Spiritualitas Tanpa Batas Agama</h3>
+                            <p class="card-excerpt">Spiritualitas sejati sering hadir dalam keheningan, melampaui dogma. Bagaimana menemukan yang sakral dalam keseharian?</p>
+                            <a href="#" class="btn-card">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    
+                    <!-- Kartu Artikel 3 -->
+                    <article class="card">
+                        <div class="card-img">
+                            <img src="https://source.unsplash.com/600x400/?psychology,mind" alt="Psikologi Diri">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Arketipe Senja dalam Psikologi Jungian</h3>
+                            <p class="card-excerpt">Senja melambangkan peralihan, saat sadar dan bawah sadar bertemu. Dalam psikologi analitis, ini adalah momen integrasi diri.</p>
+                            <a href="#" class="btn-card">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+            <!-- SIDEBAR (KANAN) -->
+            <aside class="sidebar">
+                <!-- Pencarian -->
+                <div class="sidebar-widget search-widget">
+                    <h3 class="widget-title">Cari Artikel</h3>
+                    <form action="#" method="get" class="search-form">
+                        <input type="text" placeholder="Cari refleksi..." name="s" id="search-input">
+                        <button type="submit" id="search-btn"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                
+                <!-- Kategori -->
+                <div class="sidebar-widget categories-widget">
+                    <h3 class="widget-title">Kategori</h3>
+                    <ul class="category-list">
+                        <li><a href="#">Filsafat <span>(12)</span></a></li>
+                        <li><a href="#">Spiritualitas <span>(9)</span></a></li>
+                        <li><a href="#">Psikologi <span>(8)</span></a></li>
+                        <li><a href="#">Pengembangan Diri <span>(15)</span></a></li>
+                        <li><a href="#">Refleksi <span>(11)</span></a></li>
+                        <li><a href="#">Agama & Budaya <span>(5)</span></a></li>
+                    </ul>
+                </div>
+                
+                <!-- Artikel Populer -->
+                <div class="sidebar-widget popular-widget">
+                    <h3 class="widget-title">Artikel Populer</h3>
+                    <ul class="popular-list">
+                        <li><a href="#">Menyelami Luka: Psikologi di Balik Senja</a> <span>1.2k views</span></li>
+                        <li><a href="#">Tuhan dalam Hening: Perspektif Mistik</a> <span>987 views</span></li>
+                        <li><a href="#">Stoa dan Senja: Filosofi Ketangguhan</a> <span>754 views</span></li>
+                        <li><a href="#">Arti Warna Merah dalam Tradisi Spiritual</a> <span>621 views</span></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- HALAMAN TENTANG -->
+    <section id="tentang" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Tentang Senja Merah</h2>
+            <div class="about-content">
+                <p><span class="dropcap">S</span>enja Merah lahir dari kegelisahan akan kedangkalan. Di tengah hiruk pikuk dunia, kita lupa merenung. Blog ini adalah ruang sunyi untuk membahas filsafat, spiritualitas, psikologi, dan pengembangan diri—semuanya dibingkai dalam refleksi kehidupan sehari-hari.</p>
+                <p>Kami percaya bahwa senja adalah metafora sempurna: peralihan, keindahan yang fana, dan undangan untuk melihat ke dalam. Setiap artikel ditulis dengan hati, merangkai wacana dan praktik kebijaksanaan dari Timur dan Barat. Selamat berjalan dalam cahaya senja.</p>
+                <p><em>— Redaksi Senja Merah</em></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col footer-desc">
+                <h4>Senja Merah</h4>
+                <p>Blog reflektif untuk mereka yang mencari makna. Filsafat, spiritualitas, psikologi, dan pengembangan diri dalam balutan senja.</p>
+            </div>
+            <div class="footer-col footer-nav">
+                <h4>Navigasi</h4>
+                <ul>
+                    <li><a href="#hero">Beranda</a></li>
+                    <li><a href="#filsafat">Filsafat</a></li>
+                    <li><a href="#spiritualitas">Spiritualitas</a></li>
+                    <li><a href="#psikologi">Psikologi</a></li>
+                    <li><a href="#pengembangan-diri">Pengembangan Diri</a></li>
+                    <li><a href="#refleksi">Refleksi</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-social">
+                <h4>Ikuti</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Medium"><i class="fab fa-medium-m"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Senja Merah. Dirancang untuk refleksi dan keheningan.</p>
+            </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="js/main.js"></script>
+    <!-- SCRIPT JS -->
+    <script src="script.js"></script>
 </body>
-  </html>
+</html>
